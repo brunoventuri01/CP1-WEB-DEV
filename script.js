@@ -26,3 +26,18 @@ if(imc<18.5){
 }else if(imc>=24.9){
 document.write("Seu IMC está acima do ideal")   
 }
+
+document.write("<br><br>")
+
+//PROGRAMA QUE RECEBE IDADE DE UMA PESSOA E EXIBA UMA MENSAGEM INDICANDO QUAL FAIXA ETARIA ELA SE ENCONTRA
+let idade=prompt("Digite sua idade")
+if(idade<=12){
+    document.write("É uma criança")
+}else if(idade<=18){
+    document.write("É um adolescente")
+}else if(idade<=60){
+    document.write("É um adulto")
+}else{
+    document.write("É um idoso")
+}
+document.write("<br><br>")

@@ -91,3 +91,10 @@ document.write("<br></br>")
 document.write("E ingressou no curso no ano de",ano)
 document.write("<br></br>")
 document.body.style.backgroundColor="#13CEF0"
+
+
+document.write("<br></br>")
+document.write("<br></br>")
+// Crie um programa em Javascript que troque a palavra lugar por mundo da frase O LUGAR VIRA TECNOLOGIA e apresente na tela.
+let frase="O LUGAR VIRA TECNOLOGIA"
+document.write(frase.replace("LUGAR","MUNDO"))

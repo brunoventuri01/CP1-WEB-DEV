@@ -32,6 +32,8 @@ document.write("<br></br>")
 
 
 //PROGRAMA QUE RECEBE IDADE DE UMA PESSOA E EXIBA UMA MENSAGEM INDICANDO QUAL FAIXA ETARIA ELA SE ENCONTRA
+document.write("<br></br>")
+document.write("<br></br>")
 let idade=prompt("Digite sua idade")
 if(idade<=12){
     document.write("É uma criança")
@@ -47,6 +49,8 @@ document.write("<br></br>")
 
 
 //crie um programa que receba um nome de usuario e uma senha
+document.write("<br></br>")
+document.write("<br></br>")
 let usuario=prompt("Digite o nome de usuário")
 let senha=prompt("Digite sua senha")
 if(usuario=="admin" && senha=="1234"){
@@ -59,6 +63,8 @@ document.write("<br></br>")
 
 
 //crie um programa que calcule a media de 7 notas e exiba reprovado ou aprovado
+document.write("<br></br>")
+document.write("<br></br>")
 let nota1=parseFloat(prompt("Digite sua nota 1"));
 let nota2=parseFloat(prompt("Digite sua nota 2"));
 let nota3=parseFloat(prompt("Digite sua nota 3"));
@@ -74,10 +80,11 @@ if(media>=6){
 document.write("Voce foi reprovado")
 
 document.write("<br></br>")
-document.write("<br></br>")
-document.write("<br></br>")
+
 
 //Crie um programa que digite nome, idade, curso e ano na tela um embaixo do outro, no seu HTML coloque um gundo e um titulo, e o javascript deve ser externo
+document.write("<br></br>")
+document.write("<br></br>")
 let nome=prompt("Digite seu nome")
 let idade2=parseInt(prompt("Digite sua idade"))
 let curso=prompt("Digite o nome do seu curso")
@@ -88,13 +95,31 @@ document.write("Você possui ",idade2," anos")
 document.write("<br></br>")
 document.write("Você cursa ",curso)
 document.write("<br></br>")
-document.write("E ingressou no curso no ano de",ano)
+document.write("E ingressou no curso no ano de ",ano)
 document.write("<br></br>")
 document.body.style.backgroundColor="#13CEF0"
 
 
 document.write("<br></br>")
 document.write("<br></br>")
+
 // Crie um programa em Javascript que troque a palavra lugar por mundo da frase O LUGAR VIRA TECNOLOGIA e apresente na tela.
 let frase="O LUGAR VIRA TECNOLOGIA"
 document.write(frase.replace("LUGAR","MUNDO"))
+
+
+
+//Crie um programa que declare a variável como String depois converta para float e em seguida apresente apenas dois numeros depois da virgula
+let num3= "125.66666666";
+console.log (num3)
+let verificar2 = typeof num3
+console.log(verificar2)
+
+let num4= parseFloat(num3)
+
+
+console.log (num4)
+let verificar = typeof num4
+console.log(verificar)
+
+console.log (num4.toFixed(2))

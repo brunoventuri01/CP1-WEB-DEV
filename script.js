@@ -16,9 +16,9 @@ let altura=prompt("Digite sua altura em metros")
 
 imc = peso/(altura*altura)
 
-document.write("Seu imc é ",imc)
+document.write("Seu imc é ",imc.toFixed(1))
 
-document.write("<br><br>")
+document.write("<br></br>")
 
 if(imc<18.5){
     document.write("Seu IMC está abaixo do peso ideal")
@@ -28,7 +28,8 @@ if(imc<18.5){
 document.write("Seu IMC está acima do ideal")   
 }
 
-document.write("<br><br>")
+document.write("<br></br>")
+
 
 //PROGRAMA QUE RECEBE IDADE DE UMA PESSOA E EXIBA UMA MENSAGEM INDICANDO QUAL FAIXA ETARIA ELA SE ENCONTRA
 let idade=prompt("Digite sua idade")
@@ -41,7 +42,8 @@ if(idade<=12){
 }else{
     document.write("É um idoso")
 }
-document.write("<br><br>")
+document.write("<br></br>")
+
 
 
 //crie um programa que receba um nome de usuario e uma senha
@@ -53,6 +55,7 @@ if(usuario=="admin" && senha=="1234"){
 document.write("Login ou senha incorretos")
 
 document.write("<br></br>")
+
 
 
 //crie um programa que calcule a media de 7 notas e exiba reprovado ou aprovado
@@ -71,4 +74,20 @@ if(media>=6){
 document.write("Voce foi reprovado")
 
 document.write("<br></br>")
+document.write("<br></br>")
+document.write("<br></br>")
 
+//Crie um programa que digite nome, idade, curso e ano na tela um embaixo do outro, no seu HTML coloque um gundo e um titulo, e o javascript deve ser externo
+let nome=prompt("Digite seu nome")
+let idade2=parseInt(prompt("Digite sua idade"))
+let curso=prompt("Digite o nome do seu curso")
+let ano=prompt("Digite o ano que você começou seu curso")
+document.write("O seu nome é ",nome)
+document.write("<br></br>")
+document.write("Você possui ",idade2," anos")
+document.write("<br></br>")
+document.write("Você cursa ",curso)
+document.write("<br></br>")
+document.write("E ingressou no curso no ano de",ano)
+document.write("<br></br>")
+document.body.style.backgroundColor="#13CEF0"
